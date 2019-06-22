@@ -108,4 +108,19 @@ header,
 }
 
 
+/* Forms */
+#input {
+    background: transparent;
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-bottom: transparent !important;
+    font-weight: 200;
+    color: black;
+    padding-left: 0;
+    padding: 10px;
+    box-shadow: none !important;
+}
+
+#input:focus { outline: none; }
 
