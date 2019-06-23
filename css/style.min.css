@@ -2,7 +2,7 @@
 html,
 body,
 header,
-.view {
+.views {
   height: 100%;
   font-family:'Lato', sans-serif;
 }
@@ -11,7 +11,7 @@ header,
     html,
     body,
     header,
-        .view {
+        .views {
             height: 1050px;
         }
 }
@@ -20,14 +20,16 @@ header,
     html,
     body,
     header,
-        .view {
+        .views {
             height: 700px;
         }
 }
 
 .white-text{
-    color: #2fdcf5!important;
+    color: #18ffff!important;
 }
+
+
  
 /* carousel style */
 .carousel {
@@ -123,6 +125,7 @@ header,
     color: black;
     padding: 10px;
     box-shadow: none !important;
+    width: 71%;
 }
 
 #input:focus { outline: none; }
@@ -139,6 +142,7 @@ header,
 
 .search a{
     color: white!important;
+    font-weight: bolder;
 }
 
 .cities{
@@ -160,13 +164,17 @@ header,
     }
 }
 
+.view img{
+    height: 200px;
+}
+
 .black-text{
     color: black;
     font-weight: 700;
 }
 
 .light-blue-text{
-    color: #2fdcf5;
+    color: #18ffff;
 }
 
 .vproper{
@@ -177,4 +185,27 @@ header,
     border-radius: 5px;
 }
 
+.avatar img{
+    height: 150px;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 50%;
+}
 
+#input::placeholder{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.subscribe{
+    margin-left: -1%;
+    background-color: #18ffff;
+    color: white!important;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.label-stuff{
+    background-color: white; width: 300px;  border-radius: 10px;
+}
