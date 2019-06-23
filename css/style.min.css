@@ -141,4 +141,40 @@ header,
     color: white!important;
 }
 
+.cities{
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width:768px) {
+    .cities{
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+    .search{
+        margin: 0
+    }
+}
+
+.black-text{
+    color: black;
+    font-weight: 700;
+}
+
+.light-blue-text{
+    color: #2fdcf5;
+}
+
+.vproper{
+    color: white!important;
+    background-color: #5be4a4!important;
+    padding: 10px;
+    height: 90%;
+    border-radius: 5px;
+}
+
 
