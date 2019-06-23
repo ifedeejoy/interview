@@ -68,7 +68,7 @@ header,
 }
 
 .nav-link{
-    color: #5be4a4!important;
+    color: #07b765!important;
 }
 
 .signup{
@@ -101,6 +101,10 @@ header,
   }
 }
 
+.fa.fa-navicon {
+    color:white;
+}  
+
 /* footer section */
 .page-footer,
 .top-nav-collapse {
@@ -117,10 +121,24 @@ header,
     border-bottom: transparent !important;
     font-weight: 200;
     color: black;
-    padding-left: 0;
     padding: 10px;
     box-shadow: none !important;
 }
 
 #input:focus { outline: none; }
+
+.search{
+    color: white!important;
+    background-color: #5be4a4!important;
+    padding: 5px;
+    height: 90%;
+    margin-top: 1.5%;
+    margin-left: -2%;
+    border-radius: 2px;
+}
+
+.search a{
+    color: white!important;
+}
+
 
